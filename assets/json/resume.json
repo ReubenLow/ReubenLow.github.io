@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Reuben Low",
+    "label": "Undergraduate Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "2200931@sit.singaporetech.edu.sg",
+    
+    "url": "https://ReubenLow.github.io",
+    "summary": "Second-year Robotics Systems Student",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -24,16 +24,15 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Advanced Remanufacturing and Technology Centre (ARTC)",
+      "position": "Engineering Intern (Robotics)",
+      "startDate": "2019-03-01",
+      "endDate": "2019-08-01",
+      "summary": "During my internship at ARTC, I contributed to a project optimizing spindle speeds, tool paths, and abrasive grits to achieve a mirror finish on stainless steel surfaces using the ABB IRB 140 robot arm. I assisted in integrating ABB's Simplified Robot Programming (SRP) system with the ABB IRB 6660 robot arm by designing 3D printed adapters, defining tool data, and demonstrating SRP motion tracking at the 2019 ROS-I APAC conference. Additionally, I designed and installed components for a cable management system on the ABB IRB 6660 robot arm, reducing cable strain and entanglement.",
+      "highlights": ["ABB Rapid Programming", "Siemens-NX"]
     }
   ],
-  "volunteer": [
+  "volunteerr": [
     {
       "organization": "People's Climate March",
       "location": "Zurich, Switzerland",
@@ -47,18 +46,18 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "institution": "Singapore Institute of Technology",
+      "location": "Singapore, Singapore",
+      "url": "https://www.singaporetech.edu.sg/",
+      "area": "Robotics Systems",
+      "studyType": "Undergraduate",
+      "startDate": "2022-08-01",
+      "endDate": "2026-06-01",
       "score": "10",
-      "courses": ["Theory of Relativity"]
+      "coursess": [""]
     }
   ],
-  "awards": [
+  "awardss": [
     {
       "title": "Nobel Prize in Physics",
       "date": "1921-11-01",
@@ -67,7 +66,7 @@
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
-  "certificates": [
+  "certificatess": [
     {
       "name": "Machine Learning",
       "date": "2018-01-01",
@@ -111,7 +110,7 @@
       "icon": "fa-solid fa-clipboard-check"
     }
   ],
-  "publications": [
+  "publicationss": [
     {
       "name": "Zur Elektrody/namik bewegter Körper",
       "publisher": "Annalen der Physik",
@@ -134,7 +133,7 @@
       "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
     }
   ],
-  "skills": [
+  "skillss": [
     {
       "name": "Physics",
       "level": "Master",
@@ -151,17 +150,17 @@
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "English",
+      "fluency": "Fluent",
       "icon": ""
     },
     {
-      "language": "English",
+      "language": "Mandarin",
       "fluency": "Fluent",
       "icon": ""
     }
   ],
-  "interests": [
+  "interestss": [
     {
       "name": "Physics",
       "icon": "fa-solid fa-tag",
@@ -175,7 +174,7 @@
       ]
     }
   ],
-  "references": [
+  "referencess": [
     {
       "name": "Professor John Doe",
       "icon": "fa-solid fa-laptop",
@@ -187,7 +186,7 @@
       "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     }
   ],
-  "projects": [
+  "projectss": [
     {
       "name": "Quantum Computing",
       "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
