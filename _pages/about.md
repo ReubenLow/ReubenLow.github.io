@@ -6,7 +6,7 @@ subtitle: Undergraduate Robotics Systems Student | Singapore Institute of Techno
 
 profile:
   align: right
-  image: mypic.jpg
+  image: 
   image_circular: false # crops the image to make it circular
   more_info: >
     
