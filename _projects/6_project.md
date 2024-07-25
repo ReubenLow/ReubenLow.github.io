@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
+title: Lite-kit Project 1
+description: A robotic platform that can be remotely controlled via a GUI.
 img:
 importance: 4
 category: fun

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 4
+title: Systems Engineering Project 1 (SEP1)
 description: another without an image
 img:
 importance: 3

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: Lite-kit Project 2
+description: A robotic platform that tracks coloured objects.
 img: assets/img/1.jpg
 importance: 3
 category: fun
