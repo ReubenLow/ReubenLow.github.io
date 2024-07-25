@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: ROS2 BFS Maze Solver
+description: A maze solver script that explores an unknown map.
+img: assets/img/maze.webp
+redirect: https://github.com/ReubenLow/BfsMazeSolver
 importance: 3
 category: work
 ---
