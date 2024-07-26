@@ -13,7 +13,7 @@ related_publications: false
 The objective of this project is to develop a system that enhances the presentation, customization, and efficiency of food preparation, while considering the needs of various stakeholders, such as restaurants, caterers, and consumers.
 
 ## Outcome
-EASY, a food printer that is capable of printing 2D graphical images on a tray of pastries autonomously.
+A food printer that is capable of printing 2D graphical images on a tray of pastries autonomously.
 
 <!-- To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
@@ -65,9 +65,9 @@ EASY, a food printer that is capable of printing 2D graphical images on a tray o
 - Embedded Systems
 
 
-<!-- Photo of EASY printer -->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
+<<<<<<< HEAD
         {% include figure.liquid loading="eager" path="assets/img/easyprinter1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -90,6 +90,8 @@ EASY, a food printer that is capable of printing 2D graphical images on a tray o
 <!-- <div class="row">
 >>>>>>> parent of 46916f32 (update)
     <div class="col-sm mt-3 mt-md-0">
+=======
+>>>>>>> parent of 31521416 (updated sep2)
         {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
