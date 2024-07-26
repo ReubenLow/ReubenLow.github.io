@@ -13,7 +13,7 @@ related_publications: false
 The objective of this project is to develop a system that enhances the presentation, customization, and efficiency of food preparation, while considering the needs of various stakeholders, such as restaurants, caterers, and consumers.
 
 ## Outcome
-A food printer that is capable of printing 2D graphical images on a tray of pastries autonomously.
+EASY, a food printer that is capable of printing 2D graphical images on a tray of pastries autonomously.
 
 <!-- To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
@@ -65,7 +65,23 @@ A food printer that is capable of printing 2D graphical images on a tray of past
 - Embedded Systems
 
 
+<!-- Photo of EASY printer -->
 <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/easyprinter1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The EASY Printer.
+</div>
+
+<!-- Functionalities of EASY printer -->
+## Functionalities of EASY printer
+1. Prints on a tray of pastries without pre-alignment, allowing pastries to be placed in any order.
+2. Does not require manual alignment by the user.
+3. Capable of printing on various types of pastries, such as croissants and pain au chocolat.
+
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -121,6 +137,6 @@ Here's the code for the last row of images above:
     {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
+``` -->
 
 {% endraw %}
