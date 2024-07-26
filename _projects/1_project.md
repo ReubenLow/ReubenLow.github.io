@@ -12,6 +12,9 @@ related_publications: false
 ## Objective
 The objective of this project is to develop a system that enhances the presentation, customization, and efficiency of food preparation, while considering the needs of various stakeholders, such as restaurants, caterers, and consumers.
 
+## Outcome
+A food printer that is capable of printing 2D graphical images on a tray of pastries autonomously.
+
 <!-- To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
     ---
@@ -27,15 +30,40 @@ The objective of this project is to develop a system that enhances the presentat
         {% include video.liquid path="assets/video/easyvidnosound.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
-
 <!-- Caption of EASY video -->
 <div class="caption">
     The EASY Printer printing the Chanel logo on a tray of Pain Au Chocolat Pastries.
 </div>
 
+
+<!-- Show photo of the output of the Chanel logo and other prints -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/chanelchocprint.jpg" title="Chanel Logo on Pain Au Chocolat" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/nicherchocprint.jpg" title="Nicher Logo on Pain Au Chocolat" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/nicherplainprint.jpg" title="Nicher Logo on Croisaant" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Printed logos and images on various pastries.
+</div>
+
+
 <!-- SEP2 Technical Documentation Section -->
-<!-- [View the Technical Documentation of SEP2 here](/_posts/2024-07-23-sep2docs.md) -->
-[View the Technical Documentation of SEP2 here](https://reubenlow.github.io/blog/2024/sep2docs/)
+## [View the Technical Documentation of SEP2 here](https://reubenlow.github.io/blog/2024/sep2docs/)
+
+
+<!-- Skills Deployed -->
+- Project Management
+    - SCRUM
+- Systems Engineering
+- Mechanical Design
+- Embedded Systems
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
