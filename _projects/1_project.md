@@ -34,7 +34,8 @@ The objective of this project is to develop a system that enhances the presentat
 </div>
 
 <!-- SEP2 Technical Documentation Section -->
-[View the Technical Documentation of SEP2 here](/_posts/sep2TechnicalDocumentation.md)
+<!-- [View the Technical Documentation of SEP2 here](/_posts/2024-07-23-sep2docs.md) -->
+[View the Technical Documentation of SEP2 here](/_posts/2024-07-23-sep2docs.md)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -50,6 +51,7 @@ The objective of this project is to develop a system that enhances the presentat
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
