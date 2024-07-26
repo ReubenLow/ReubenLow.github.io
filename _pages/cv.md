@@ -1,7 +1,6 @@
 ---
 layout: cv
-# permalink: /cv/
-permalink: /assets/pdf/ReubenLowYuXiang_Resume.pdf
+permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
