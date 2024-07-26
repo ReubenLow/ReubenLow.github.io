@@ -4,7 +4,7 @@ title: Systems Engineering Project 1 (SEP1)
 description: another without an image
 img:
 importance: 3
-category: fun
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

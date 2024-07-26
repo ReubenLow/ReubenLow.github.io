@@ -33,7 +33,7 @@ The objective of this project is to develop a system that enhances the presentat
 </div>
 
 <!-- SEP2 Technical Documentation Section -->
-[View the Technical Documentation of SEP2 here](/_posts/sep2TechnicalDocumentation.md)
+[View the Technical Documentation of SEP2 here](/posts/sep2TechnicalDocumentation.md)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
