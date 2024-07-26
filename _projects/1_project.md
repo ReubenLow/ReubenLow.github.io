@@ -35,7 +35,7 @@ The objective of this project is to develop a system that enhances the presentat
 
 <!-- SEP2 Technical Documentation Section -->
 <!-- [View the Technical Documentation of SEP2 here](/_posts/2024-07-23-sep2docs.md) -->
-[View the Technical Documentation of SEP2 here](/_posts/2024-07-23-sep2docs.md)
+[View the Technical Documentation of SEP2 here](https://reubenlow.github.io/blog/2024/sep2docs/)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
