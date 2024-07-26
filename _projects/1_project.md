@@ -81,10 +81,14 @@ EASY, a food printer that is capable of printing 2D graphical images on a tray o
 2. Does not require manual alignment by the user.
 3. Capable of printing on various types of pastries, such as croissants and pain au chocolat.
 
+<<<<<<< HEAD
 <!-- Stakeholder engagement -->
 ## Stakeholder engagement
 
 <div class="row">
+=======
+<!-- <div class="row">
+>>>>>>> parent of 46916f32 (update)
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
