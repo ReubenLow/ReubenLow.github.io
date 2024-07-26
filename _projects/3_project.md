@@ -5,7 +5,7 @@ description: A maze solver script that explores an unknown map.
 img: assets/img/maze.webp
 redirect: https://github.com/ReubenLow/BfsMazeSolver
 importance: 3
-category: work
+category: Technical Projects
 ---
 
 Every project has a beautiful feature showcase page.

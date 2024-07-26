@@ -9,9 +9,7 @@ related_publications: false
 ---
 
 <!-- Describe the objective of SEP2 -->
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The objective of this project is to develop a system that enhances the presentation, customization, and efficiency of food preparation, while considering the needs of various stakeholders, such as restaurants, caterers, and consumers.
 
 <!-- To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
@@ -33,6 +31,9 @@ Make your photos 1/3, 2/3, or full width.
 <div class="caption">
     The EASY Printer printing the Chanel logo on a tray of Pain Au Chocolat Pastries.
 </div>
+
+<!-- SEP2 Technical Documentation Section -->
+[View the Technical Documentation of SEP2 here](/_posts/sep2TechnicalDocumentation.md)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
