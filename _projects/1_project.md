@@ -83,7 +83,8 @@ EASY, a food printer that is capable of printing 2D graphical images on a tray o
 3. Capable of printing on various types of pastries, such as croissants, pain au chocolat etc.
 
 <!-- Stakeholder engagement -->
-<!-- ## Stakeholder engagement
+## Stakeholder engagement
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/nichergroupphoto.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -102,7 +103,7 @@ Through our stakeholder engagement with Nicher, we discovered:
 - Aims for organic brand growth over agressive social media advertising.
     - Previous trends (mini croissants) was short-lived in growing and retaining customers.
 
-Additionally, Nicher also serves pastries at coporate events as part of its revenue stream and to boost brand recognition. As well as, expressed the need to stand out and differentiate its  -->
+Additionally, Nicher also serves pastries at coporate events as part of its revenue stream and to boost brand recognition. As well as, expressed the need to stand out and differentiate its 
 
 
 
