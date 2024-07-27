@@ -58,6 +58,7 @@ EASY, a food printer that is capable of printing 2D graphical images on a tray o
 
 
 <!-- Skills Deployed -->
+## Skills Deployed
 - Project Management
     - SCRUM
 - Systems Engineering
