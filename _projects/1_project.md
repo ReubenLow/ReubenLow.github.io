@@ -60,7 +60,7 @@ EASY, a food printer that is capable of printing 2D graphical images on a tray o
 <!-- Skills Deployed -->
 ## Skills Deployed
 - Project Management
-    - SCRUM
+    - Agile
 - Systems Engineering
 - Mechanical Design
 - Embedded Systems
@@ -69,7 +69,7 @@ EASY, a food printer that is capable of printing 2D graphical images on a tray o
 <!-- Photo of EASY printer -->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/easyprinter1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/easyprinter1.jpg" title="Nicher and EASY Development Team" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -78,12 +78,31 @@ EASY, a food printer that is capable of printing 2D graphical images on a tray o
 
 <!-- Functionalities of EASY printer -->
 ## Functionalities of EASY printer
-1. Prints on a tray of pastries without pre-alignment, allowing pastries to be placed in any order.
-2. Does not require manual alignment by the user.
-3. Capable of printing on various types of pastries, such as croissants and pain au chocolat.
+1. Prints on a tray of pastries without any pre-alignment by the user, allowing pastries to be placed in any order.
+2. Able to adapt to the arrangement of pastries on the tray autonomously and printing accordingly.
+3. Capable of printing on various types of pastries, such as croissants, pain au chocolat etc.
 
 <!-- Stakeholder engagement -->
-## Stakeholder engagement
+<!-- ## Stakeholder engagement
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/nichergroupphoto.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Left to right: Muslinmin, Kaushik, Reuben, Yugendren, Melvin (Owner of Nicher), and Stafford.
+</div>
+
+### Our Stakeholder
+[Nicher](https://nicher.com.sg/) is a local bakery and café located at 60 Springside Walk, #01-08, Singapore 786020. Run by an Ex-MBS pâtissier, Melvin, Nicher specializes in artisanal pastries such as Almond Croissants and Kouign Amann.
+
+Through our stakeholder engagement with Nicher, we discovered:
+- Nicher is located in a residential area with low footfall, residents not a significant customer base for Nicher.
+- Faces increasing costs in raw materials (e.g., butter).
+- Aims for organic brand growth over agressive social media advertising.
+    - Previous trends (mini croissants) was short-lived in growing and retaining customers.
+
+Additionally, Nicher also serves pastries at coporate events as part of its revenue stream and to boost brand recognition. As well as, expressed the need to stand out and differentiate its  -->
 
 
 
