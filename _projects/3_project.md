@@ -1,11 +1,11 @@
 ---
 layout: page
 title: ROS2 BFS Maze Solver
-description: A maze solver script that explores an unknown map.
+description: A Breadth-First-Search maze solver script that explores an unknown map.
 img: assets/img/maze.webp
 redirect: https://github.com/ReubenLow/BfsMazeSolver
 importance: 3
-category: work
+category: technical
 ---
 
 Every project has a beautiful feature showcase page.
