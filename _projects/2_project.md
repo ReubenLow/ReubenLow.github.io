@@ -28,6 +28,7 @@ The project team successfully designed and developed a prototype of a Modular As
 ## Skills deployed & Responsibilities
 - Project Management
 - Systems Engineering
+- Visual Components
 - Embedded Systems
 - Electronics
 

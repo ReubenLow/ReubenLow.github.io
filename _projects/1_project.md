@@ -35,6 +35,8 @@ EASY, a food printer that is capable of printing 2D graphical images on a tray o
     The EASY Printer printing the Chanel logo on a tray of Pain Au Chocolat Pastries.
 </div>
 
+<!-- SEP2 Technical Documentation Section -->
+## [For more information, view the Technical Documentation of SEP2 here](https://reubenlow.github.io/blog/2024/sep2docs/)
 
 <!-- Show photo of the output of the Chanel logo and other prints -->
 <div class="row">
