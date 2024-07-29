@@ -19,6 +19,12 @@ The project team successfully designed and developed a prototype of a Modular As
 2. Cost Efficiency: The MAL system's automation led to a substantial reduction in operating costs, saving approximately $59,240 per annum due to reduced reliance on manual labor.
 3. Return on Investment (ROI): The MAL system is projected to become more cost-effective than the existing system within three years, achieving a quicker ROI due to lower operational costs.
 
+<div class="videorow">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/malvideo.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>
+
 ## Skills deployed & Responsibilities
 - Project Management
 - Systems Engineering
