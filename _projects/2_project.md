@@ -5,7 +5,7 @@ description: A modular based Value-Added Services assembly line
 img: assets/img/malhome.jpg
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
 <!-- Describe the objective of MAL -->
