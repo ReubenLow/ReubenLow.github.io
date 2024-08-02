@@ -40,7 +40,7 @@ Home Position (Centre)
 
 <div class="videorow">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/sep1/sep1video1.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="assets/video/sep1/sep1video1.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
     </div>
 </div>
 <div class="caption">
@@ -64,7 +64,7 @@ Key components and functionalities implemented in the script:
 
 <div class="videorow">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="assets/video/sep1/sep1video2.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="assets/video/sep1/sep1video2.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=false %}
     </div>
 </div>
 <div class="caption">
