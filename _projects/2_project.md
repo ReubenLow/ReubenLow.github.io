@@ -24,6 +24,9 @@ The project team successfully designed and developed a prototype of a Modular As
         {% include video.liquid path="assets/video/malvideo.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
+<div class="caption">
+    The EASY Printer printing the Chanel logo on a tray of Pain Au Chocolat Pastries.
+</div>
 
 ## Skills deployed & Responsibilities
 - Project Management
