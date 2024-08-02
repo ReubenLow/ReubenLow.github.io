@@ -126,6 +126,12 @@ def load_pose():
 
 ```
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/sep1/sep1.jpg" title="Nicher and EASY Development Team" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 {% raw %}
 
 {% endraw %}
