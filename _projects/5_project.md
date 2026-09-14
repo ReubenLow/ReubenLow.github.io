@@ -3,7 +3,7 @@ layout: page
 title: Lite-kit Project 2
 description: A robotic platform that tracks coloured objects.
 img: assets/img/litekit2.jpg
-importance: 3
+importance: 10
 category: work
 ---
 
