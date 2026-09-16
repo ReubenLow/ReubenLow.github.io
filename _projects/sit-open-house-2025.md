@@ -3,7 +3,7 @@ layout: page
 title: SIT Open House 2025 Humanoid Demonstration
 description: Kuavo V4 humanoid manipulation driven by verbal interaction and computer vision.
 img: assets/img/iwsp/sit-open-house-2025/humanoid-setup.jpg
-importance: 1
+importance: 2
 category: work
 ---
 

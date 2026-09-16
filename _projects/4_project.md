@@ -3,7 +3,7 @@ layout: page
 title: Systems Engineering Project 1 (SEP1)
 description: A robotic platform (LIMO) capable of motion planning in a mapped area.
 img: assets/img/sep1.jpg
-importance: 9
+importance: 10
 category: work
 ---
 
