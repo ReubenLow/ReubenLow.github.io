@@ -70,6 +70,21 @@ Two vision-language models were evaluated as planning backends: NVIDIA Cosmos-Re
 
 The comparison covered 10,800 scored trials spanning three scene complexity tiers and six prompt categories, using a pilot-then-confirmatory holdout design with Bonferroni-corrected hypothesis testing.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/capstone/scene-simple.jpg" title="Simple complexity tier scene" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/capstone/scene-medium.jpg" title="Medium complexity tier scene" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/capstone/scene-complex.jpg" title="Complex complexity tier scene" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Example evaluation scenes across the three complexity tiers, simple on the left through to complex on the right, with more objects on the table at each step up.
+</div>
+
 | Metric               | Cosmos-Reason1-7B | Gemini Robotics ER 1.5 |
 | -------------------- | ----------------- | ---------------------- |
 | Overall              | 40.75%            | 97.17%                 |
