@@ -17,7 +17,7 @@ To develop autonomous shelf-picking capabilities for the Kuavo humanoid, with du
 
 ## Outcome
 
-A shelf-picking system in which each arm operates independently under its own commands, coordinated by shelf-state tracking that assigns work between them. Integrated testing demonstrated concurrent two-order operation with both arms running together.
+A shelf-picking system in which each arm operates independently under its own commands, coordinated by shelf-state tracking that assigns canned drink orders between them. Integrated testing demonstrated concurrent two-order operation with both arms running together.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-7 mt-3 mt-md-0">
@@ -27,16 +27,6 @@ A shelf-picking system in which each arm operates independently under its own co
 <div class="caption">
     The humanoid facing a stocked shelf, with wrist-mounted cameras on both arms.
 </div>
-
-## Hand-Eye Calibration
-
-I implemented both eye-to-hand and eye-in-hand calibration workflows. These established the transform chains that carry an object detection through to a feasible end-effector pose, which is what allows a pixel-space detection on the shelf to become a grasp the arm can actually execute.
-
-## Inverse Kinematics
-
-Tuning the IK solver with quaternion optimisation improved the straightness of linear trajectories and extended reachability for items sitting centrally on the shelf.
-
-End-effector pose consistency between the different motion APIs caused persistent IK failures that took time to pin down. Some control interfaces used frame conventions that differed from others, so a solution could look correct in isolation and then fail during integration. I worked through the TF tree exhaustively, validated the end-effector calculations against the FK service, documented the frame conventions for each API, and refactored the code to handle frame transformations explicitly at the interface boundaries.
 
 ## Control Architecture
 
@@ -50,25 +40,32 @@ The command gating and state isolation removed a class of failure modes that had
 
 ## Pose Accuracy Benchmarking
 
-Systematic benchmarking quantified end-effector errors across post-restart behaviour, engaged motion and motor-specific offsets. Collecting data on commanded and achieved joint angles and end-effector positions gave a quantitative basis for refining the control parameters, and surfaced mechanical issues that needed hardware attention.
+Systematic benchmarking quantified end-effector errors across post-motor restart behaviour. Collecting data on commanded and achieved joint angles and end-effector positions gave a quantitative basis for refining the control parameters.
 
-Joint error compensation was folded into the scan start poses. Batched command publishing synchronised the pose updates and removed the snapbacks that appeared during dual-arm scans.
+Joint error compensation was added into the scan start poses. Batched command publishing synchronised the pose updates and removed the snapbacks that appeared during dual-arm scanning.
 
 ## Safety
 
-Safety mechanisms covered collision-avoidance trajectories for the upper shelves, hard-limit callbacks that prevent the arms from reaching dangerous configurations, and retry-grab endpoints with non-blocking delays so that a failed grasp can be attempted again without stalling the sequence.
+Safety mechanisms covered collision-avoidance trajectories for the upper shelves, hard-limit callbacks that prevent the arms from reaching configurations that caused collisions, and retry-grab endpoints with non-blocking delays so that a failed grasp can be attempted again without stalling or restarting the sequence.
 
 ## Perception
 
-Dataset collection spanning both the body and wrist cameras trained a Stage 1 canned-drink detector, giving the system the detections it needed from the two viewpoints available to it.
+Dataset collection spanning both the body and wrist cameras trains the canned-drink detector, giving the system the detections it needed from the two viewpoints available to it.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/storeman-rosman-shelf-picking/wrist-camera-detection.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true loop=true muted=true %}
+    </div>
+</div>
+<div class="caption">
+    The canned-drink detector running on both wrist cameras at once during a dual-arm scan, left feed and right feed side by side, with each detection labelled by confidence.
+</div>
 
 <!-- Skills Deployed -->
 
 ## Skills Deployed & Responsibilities
 
 - Manipulation
-  - Eye-to-hand and eye-in-hand calibration
-  - IK solver tuning with quaternion optimisation
   - Collision-avoidance trajectories
 - Control Architecture
   - Dual-arm concurrent control
@@ -82,5 +79,4 @@ Dataset collection spanning both the body and wrist cameras trained a Stage 1 ca
   - Dataset collection across body and wrist cameras
   - Canned-drink detector training
 - Debugging
-  - TF tree inspection and FK service validation
-  - Frame convention documentation
+  - FK service validation
