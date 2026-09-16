@@ -95,6 +95,20 @@ Static planning quality does not reveal how a planner behaves over an extended e
     The BEHAVIOR-1K benchmark environment in OmniGibson, with the R1Pro mobile manipulator.
 </div>
 
+The planner monitored progress from the robot's own camera feeds during each episode.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/capstone/head-camera-vegetables.jpg" title="Camera views from a vegetable sorting episode" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/capstone/head-camera-plates.jpg" title="Camera views from a plate and food clean-up episode" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Sample camera views from two BEHAVIOR-1K episodes, sorting vegetables on the left and cleaning up plates and food on the right. Each frame pairs the wrist cameras with the head camera view the planner reasons over.
+</div>
+
 The results traced a clear capability hierarchy, ordered by how much each level demands of the model's visual grounding.
 
 | Capability            | Result                                 |
