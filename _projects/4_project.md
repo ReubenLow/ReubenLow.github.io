@@ -8,10 +8,13 @@ category: work
 ---
 
 <!-- Describe the objective of SEP1 -->
+
 ## Objective
+
 The objective of this project was to create a autonomous navigation system for a robotic platform using ROS 1. The robot, referred to as LIMO, was required to traverse a 3x3 arena map representing various zones in Sentosa. Additionally, this project aimed to introduce the concept of a throwaway prototype, focusing on testing and verifying the key functionalities of the system. The project was conducted as part of the Systems Engineering module.
 
 ## Outcome
+
 The project successfully demonstrated the robot's ability to autonomously navigate to specified goals within the arena. The navigation system implemented with the ROS 1 framework, allowed LIMO to accurately move to various zones of the arena.
 
 <div class="videorow">
@@ -24,6 +27,7 @@ The project successfully demonstrated the robot's ability to autonomously naviga
 </div>
 
 ## Arena Layout
+
 The arena was divided into nine zones, each representing a landmark in Sentosa, Singapore. The coordinates of each zone are as follows:
 
 Zone 1: Fort Siloso
@@ -32,7 +36,7 @@ Zone 3: Wings of Time
 Zone 4: Sentosa Entrance
 Zone 5: SEA Aquarium
 Zone 6: Adventure Cove Waterpark
-Zone 7: IFly 
+Zone 7: IFly
 Zone 8: Sentosa Merlion Park
 Home Position (Centre)
 
@@ -47,7 +51,7 @@ Home Position (Centre)
     Simulation of Navigation Functionalities in Gazebo
 </div>
 
-The navigation script implemented in Python, utilizes the ROS 1 framework. 
+The navigation script implemented in Python, utilizes the ROS 1 framework.
 Key components and functionalities implemented in the script:
 
 - Initialization: The script initializes a ROS node and sets up a simple action client to communicate with the move_base server, responsible for handling navigation goals.
@@ -75,7 +79,7 @@ Key components and functionalities implemented in the script:
 
 A snippet showcasing the initialization and goal setting functions.
 
-``` python
+```python
 #!/usr/bin/env python
 import rospy
 import json

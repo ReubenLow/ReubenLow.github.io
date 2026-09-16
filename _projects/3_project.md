@@ -8,8 +8,6 @@ importance: 8
 category: work
 ---
 
-
-
 {% raw %}
 
 {% endraw %}
