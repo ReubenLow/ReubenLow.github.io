@@ -2,27 +2,26 @@
 layout: about
 title: about
 permalink: /
-subtitle: Undergraduate Robotics Systems Student | Singapore Institute of Technology # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Robotics Systems Engineering graduate | Singapore Institute of Technology
 
 profile:
   align: right
   image: mypic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    Singapore
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am currently pursuing a degree in Robotics Systems Engineering at the Singapore Institute of Technology.
+I graduated from the Singapore Institute of Technology in 2026 with a Bachelor of Engineering in Robotics Systems Engineering, awarded Honours with Distinction.
 
-During my polytechnic studies, I completed a six-month internship at the Advanced Remanufacturing and Technology Centre (ARTC), where I was part of the Advanced Robotics Applications department. This experience allowed me to work on industrial robotics projects, providing valuable insights into the vast potential of robotics and its significant impact on improving quality of life.
+I spent a year at Ceredroid AI on my Integrated Work Study Programme attachment, working as a Robot Learning and Motion Engineer across Kuavo humanoid and Unitree quadruped platforms. The work covered autonomous manipulation and perception, embedded and mechanical design for field hardware, quality assurance for public demonstrations, and running those demonstrations at SIT Open House, RoboSG and community outreach events.
 
-These experiences have solidified my ambition to become a robotics engineer. I am committed to advancing my expertise in programming, electronics, and mechanical design to contribute meaningfully to the field of robotics.
+My capstone carried that into long-horizon planning. I built a Plan-Act-Correct-Verify system that takes a spoken goal, decomposes it into subtasks the robot has actually been trained to perform, dispatches them to a humanoid, and verifies each step visually before moving on. It was evaluated over 10,800 scored planning trials and a 50-task simulation benchmark.
 
-<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+During my polytechnic studies I completed a six-month internship at the Advanced Remanufacturing and Technology Centre (ARTC) in the Advanced Robotics Applications department, working on industrial robotics projects. That was where the field first caught my interest.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+What I enjoy most is the point where perception, manipulation and learned policies meet real hardware, and the engineering discipline it takes to keep those systems working outside the lab.
