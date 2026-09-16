@@ -13,7 +13,7 @@ Completed during my IWSP industry attachment at Ceredroid AI.
 
 ## Objective
 
-To build an interactive tic-tac-toe demonstration for the RoboSG event, integrating manipulation, perception and natural interaction so that members of the public could play a full game against a Kuavo V4 humanoid.
+To build an interactive tic-tac-toe demonstration for the RoboSG 2025 event, integrating manipulation, perception and conversational interaction so that members of the public could play a full game against a Kuavo V4 humanoid.
 
 ## Outcome
 
@@ -36,9 +36,11 @@ The gameboard was designed in CAD and optimised for computer vision. Ball-center
 
 I programmed complete trajectory sets covering all nine board positions. Each move was segmented into two stages: the arm first aligns the camera over the target cell so the current state can be classified, then places the piece. Arm positioning and the classification server were synchronised over ROS so that each stage only began once the previous one had settled. The placement motion had to absorb variability in the gripper so that pieces landed cleanly in the intended cell.
 
+Piece detection ran on a YOLO model trained on the game pieces, and I annotated part of the dataset it was trained on.
+
 ## State Management
 
-Early versions let visitors send action requests faster than the robot could execute them, which caused movement conflicts and erroneous ball detections. I added a queuing system for movement commands together with blocking that rejected new commands while a motion was active. Splitting the trajectories into distinct grab-and-align and place stages, each synchronised through ROS topics, gave the determinism needed for consistent gameplay.
+Early versions let players send action requests faster than the robot could execute them, which caused movement conflicts and erroneous ball detections. I added a queuing system for movement commands together with blocking that rejected new commands while a motion was active. Splitting the trajectories into distinct grab-and-align and place stages, each synchronised through ROS topics, gave the determinism needed for consistent gameplay.
 
 ## Validation
 
@@ -69,11 +71,13 @@ The demonstration ran at RoboSG, where it engaged ministers, industry profession
   - Two-stage trajectory segmentation
   - Head gesture control
 - Computer Vision
+  - YOLO model training on the game pieces
+  - Dataset annotation
   - Piece identification and board-state classification
 - ROS
   - Synchronisation between arm positioning and classification server
   - State management, command queuing and blocking
 - Mechanical Design
-  - CAD gameboard with ball-centering mechanisms
+  - CAD gameboard prototyping
 - Quality Assurance
   - Stress testing across motor restarts
