@@ -50,7 +50,27 @@ Safety mechanisms covered collision-avoidance trajectories for the upper shelves
 
 ## Perception
 
-Dataset collection spanning both the body and wrist cameras trains the canned-drink detector, giving the system the detections it needed from the two viewpoints available to it.
+Dataset collection spanning both the body and wrist cameras trains the canned-drink detector, giving the system the detections it needed from the two viewpoints available to it. Each detection carries its own product class and a confidence score, so the system can single out the item an order actually calls for.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/iwsp/storeman-rosman-shelf-picking/product-detection.jpg" title="Per-product detections on the shelf" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The detector separating products on the shelf, labelling two cans of Coke Less Sugar and a Sencha green tea as the gripper closes in.
+</div>
+
+Detections are then resolved to a position in three dimensions, which gives the arm a coordinate to reach for.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/iwsp/storeman-rosman-shelf-picking/detection-coordinates.jpg" title="Detections logged with their 3D coordinates" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Detections logged with their x, y and z coordinates on the Kuavo head AGX, alongside the live RealSense colour stream.
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
