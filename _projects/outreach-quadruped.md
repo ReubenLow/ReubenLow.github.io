@@ -34,18 +34,20 @@ The app integrates MQTT communication with the Unitree SportClient SDK, exposing
 
 REST endpoint integration extended the app to object detection, gesture recognition, target setting and audio actions, all reachable from the same mobile interface.
 
+## Designing for Public Use
+
+The simplified interface was designed for school students. The scenario it was built to serve is an obstacle course that students would drive the quadruped through using the app, giving them a set of controls they could pick up straight away without having to learn the original controller.
+
 <div class="row justify-content-sm-center">
     <div class="col-sm-9 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/iwsp/outreach-quadruped/teleop-ui.png" title="Simplified teleoperation UI for the obstacle course" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/iwsp/outreach-quadruped/teleop-ui.png" title="Simplified teleoperation UI designed for the obstacle course" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Simplified teleoperation UI for use in the obstacle course.
+    The simplified teleoperation UI, designed for the obstacle course scenario.
 </div>
 
-## Designing for Public Use
-
-The interface had to hold up in the hands of first-time users at a busy public event. E-stop latching gives a decisive way to halt the robot. Post-action input lockout prevents command conflicts when someone presses several buttons in quick succession. Haptic feedback confirms that a command has registered, which matters when the robot takes a moment to begin moving. A scrollable interface with icon-based target selection fits the full set of functions into a layout a first-time user can navigate.
+Other details were added with those users in mind. E-stop latching allows for a way to halt the robot. Post-action input lockout prevents command conflicts when someone presses several buttons in quick succession. Haptic feedback confirms that a command has registered, which matters when the robot takes a moment to begin moving. A scrollable interface with icon-based selections fits the full set of functions into a layout a first-time user can navigate.
 
 ## Hardware Integration
 
@@ -84,8 +86,8 @@ The two outreach events validated the system's reliability outside the lab and p
 - Android Development
   - Teleoperation app with MQTT communication
   - Unitree SportClient SDK integration
-  - Threading and quality-of-service tuning
 - User Experience Design
+  - Simplified control interface for school students
   - E-stop latching and input lockout
   - Haptic feedback and icon-based navigation
 - Systems Integration
