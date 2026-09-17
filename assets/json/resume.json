@@ -109,7 +109,7 @@
       "endDate": "2024-08-01",
       "summary": "",
       "highlights": [
-        "Built an object detection pipeline for autonomous grasping on an Omron TM5-700 manipulator, generating 3D pick targets from an Intel RealSense D435i depth camera.",
+        "Built an object detection pipeline for autonomous pick-and-place on an Omron TM5-700 manipulator, generating 3D pick targets from an Intel RealSense D435i depth camera.",
         "Experimented with and integrated two detection backends into the pipeline, GPT-4o and a YOLO model.",
         "Developed a Python driver for the Robotiq 2F-85 gripper via MODBUS protocol for the TM5-700."
       ]
