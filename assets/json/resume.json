@@ -93,7 +93,7 @@
       "endDate": "2025-12-01",
       "summary": "",
       "highlights": [
-        "Developed autonomous manipulation and perception systems on the Kuavo humanoid and Unitree Go2 quadruped, spanning VLM-based task planning and evaluation, visual servoing, and vision-guided hardware payloads.",
+        "Developed autonomous manipulation and perception systems on the Kuavo humanoid and Unitree Go2 quadruped, spanning VLM-based task planning and evaluation, visual servoing, and vision-guided hardware payloads (Elaborated under",
         "Collected teleoperated demonstrations on the Kuavo humanoid for NVIDIA GR00T VLA training, and deployed the trained policies on the robot.",
         "Developed my capstone project in collaboration with the company: a Plan-Act-Correct-Verify (PACV) pipeline for long-horizon humanoid manipulation, using VLMs (Gemini Robotics ER 1.5, Cosmos-Reason1) as planners over NVIDIA GR00T N1/N1.5.",
         "Maintained and upgraded humanoid hardware (Kuavo, Unitree H1): replaced faulty motors, ran firmware updates and recalibration procedures, and authored maintenance SOPs adopted by the team.",
@@ -135,10 +135,7 @@
       "startDate": "2020-07-01",
       "endDate": "2022-07-01",
       "summary": "",
-      "highlights": [
-        "Managed logistical operations, maintaining operational readiness and support.",
-        "Awarded Best Soldier of the Month (BSOM), Sergeant Major Coin, and SBW CO Letter of Commendation."
-      ]
+      "highlights": ["Managed unit logistical operations. Awarded Best Soldier of the Month, Sergeant Major Coin, and SBW CO Letter of Commendation."]
     },
     {
       "name": "Advanced Remanufacturing and Technology Centre (ARTC)",
@@ -150,7 +147,7 @@
       "summary": "",
       "highlights": [
         "Optimised mirror-finish polishing on stainless steel using the ABB IRB 140: experimented with spindle speeds, tool paths, and abrasive grits; analysed and documented surface roughness and visual quality.",
-        "Integrated the ABB Simplified Robot Programming (SRP) system with the ABB IRB 6660; designed 3D-printed spray nozzle adapters and demonstrated motion tracking at the 2019 ROS-I APAC conference.",
+        "Integrated ABB's Simplified Robot Programming (SRP) with the ABB IRB 6660; designed 3D-printed spray nozzle adapters and demonstrated motion tracking at the 2019 ROS-I APAC conference.",
         "Developed components for a new cable management system on the ABB IRB 6660 robot arm, reducing cable strain and preventing entanglement."
       ]
     }
@@ -164,9 +161,9 @@
       "endDate": "2026-04-01",
       "highlights": [
         "Developed a long-horizon planning pipeline that decomposes natural language goals into subtasks, dispatches them to a VLA-driven humanoid, visually verifies each step, and recovers from failures; deployed on the Kuavo V4 Pro.",
-        "Iterated from a stateless pipeline to a multi-turn conversation architecture for persistent dialogue context, and constrained VLM-generated plans to the trained skill primitives of the robot to prevent hallucinated dispatch.",
-        "Designed a comparative evaluation study across 10,800 scored planning trials with Bonferroni-corrected two-proportion z-tests; Gemini ER 1.5 reached 97.2% success against 40.8% for Cosmos-Reason1 on the confirmatory holdout.",
-        "Evaluated long-horizon monitoring on 50 BEHAVIOR-1K household tasks in simulation: near-perfect decomposition (6.68/7), moderate progress monitoring (2.01/3), with object hallucination the dominant failure mode."
+        "Iterated from a stateless pipeline to a multi-turn conversation architecture for persistent dialogue context, and constrained VLM-generated plans to the robot's trained skill primitives to prevent hallucinated dispatch.",
+        "Designed a comparative evaluation study across 10,800 scored planning trials to study task decomposition quality, sensitivity to scene complexity, and appropriate refusal of infeasible requests; Gemini ER 1.5 reached 97.2% success rate vs 40.8% for Cosmos-Reason1.",
+        "Evaluated long-horizon monitoring on 50 BEHAVIOR-1K household tasks in simulation: decomposition (6.68/7), progress monitoring (2.01/3), with object hallucination the common failure mode."
       ]
     },
     {
@@ -176,7 +173,7 @@
       "highlights": [
         "Implemented an autonomous dual-arm pick-and-place system on the Kuavo humanoid, with each arm independently fulfilling concurrent customer orders from a shared shelf.",
         "Defined function-call interfaces between the vision module and motion pipeline, dispatching trajectories from object detections through visual-servoing.",
-        "Collected and annotated a canned-drink dataset across body and wrist camera views to fine-tune a YOLO detector, and hardened the system with collision-avoidance trajectories and hard-limit safety callbacks."
+        "Collected and annotated a canned-drink dataset across body- and wrist-camera views to fine-tune a YOLO detector, and hardened the system with collision-avoidance trajectories and hard-limit safety callbacks for deployment."
       ]
     },
     {
@@ -192,7 +189,7 @@
       "url": "https://reubenlow.github.io/projects/bird-deterrence-quadruped/",
       "summary": "Unitree Go2, Intel RealSense, YOLO, Arduino, SolidWorks, Python",
       "highlights": [
-        "Designed and built a vision-guided laser deterrence payload for the Unitree Go2 quadruped, including the electrical schematic for the system, integrating a YOLO model with RealSense depth sensing.",
+        "Designed and built a vision-guided laser deterrence payload for the Unitree Go2 quadruped, including the system's electrical schematic, integrating a YOLO model with RealSense depth sensing.",
         "Implemented PID-based target tracking that converts detections and depth measurements into pan-tilt angles, with multiple laser movement patterns to prevent bird habituation."
       ]
     },
@@ -209,8 +206,8 @@
       "url": "",
       "summary": "NVIDIA Cosmos-Reason1, K2-Think, BitsAndBytes, Python",
       "highlights": [
-        "Evaluated Cosmos-Reason1 and Gemini Robotics ER 1.5 on synthetically generated abnormal-trajectory videos, comparing rule-based against temporal-description prompting strategies and documenting detection failure cases.",
-        "Evaluated the K2-Think model via 4-bit quantization, measuring inference latency and VRAM consumption to establish deployment envelopes."
+        "Evaluated Cosmos-Reason1 and Gemini Robotics ER 1.5 on synthetically generated abnormal-trajectory videos, comparing rule-based versus temporal-description prompting strategies and documenting detection failure cases.",
+        "Quantised K2-Think to 4-bit with BitsAndBytes to fit it on a RTX 4090, measuring inference latency and VRAM use to confirm it could run locally."
       ]
     },
     {
@@ -218,7 +215,7 @@
       "url": "https://reubenlow.github.io/projects/1_project/",
       "summary": "STM32, C, SolidWorks, Pixy Camera, SCRUM, Project Management",
       "highlights": [
-        "Collaborated with Nicher, an artisan bakery, to develop a food printer capable of printing 2D images and logos onto a tray of pastries in any orientation autonomously."
+        "Collaborated with Nicher, an artisan bakery, to develop a food printer capable of printing 2D images and logos onto a tray of pastries in any orientation autonomously. Bolloré"
       ]
     },
     {
@@ -237,8 +234,8 @@
       "summary": "C, Python, Spin Language, STM32, Pixy Camera, Parallax MCU, AgileX-LIMO",
       "highlights": [
         "Developed a robotic platform capable of remote control via a GUI, further evolving it into an autonomous system using a Pixy camera to follow coloured objects.",
-        "Implemented a Breadth-First Search algorithm in ROS 2 Gazebo and RViz to explore an unknown maze.",
-        "Developed scripts for autonomous goal-to-goal navigation, incorporating MoveBaseAction and MoveBaseGoal packages, implemented a GUI with PyQt, and added functionality to save and load robot positions. Optimised navigation behaviour via ROS parameter YAML files."
+        "Implemented Breadth-First Search Algorithm in ROS 2 Gazebo and RViz to explore an unknown maze.",
+        "Developed scripts for autonomous goal-to-goal navigation, incorporating MoveBaseAction and MoveBaseGoal packages, implemented a GUI with PyQt, functionalities to save and load robot positions. Optimised navigation behaviour via ROS parameter YAML files."
       ]
     }
   ],
