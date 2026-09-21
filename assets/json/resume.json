@@ -225,7 +225,7 @@
       "highlights": [
         "Collaborated with 3PL company Bolloré Logistics to produce a business case for a modular automated solution that allows for easy integration with emerging technologies for Value Added Service assembly lines.",
         "Simulated the solution in Visual Components and ROS 2 (Gazebo, RViz), then built and integrated a physical proof-of-concept of the assembly line (robotic platform and robotic arm).",
-        "Business case projected a 25% increase in throughput and a corresponding 25% reduction in costs and labour, with a projected ROI period of three years."
+        "Business case projected a 22% increase in throughput, from 6,807 to 8,352 kit boxes per 8-hour shift, with a 25% reduction in operational costs and headcount and a projected ROI period of three years."
       ]
     },
     {

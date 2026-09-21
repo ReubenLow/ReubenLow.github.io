@@ -18,9 +18,9 @@ The primary objective of this project was to enhance the efficiency and effectiv
 
 The project team successfully designed and developed a prototype of a Modular Assembly Line (MAL) that significantly improves the existing VAS assembly line. Key outcomes include:
 
-1. Increased Throughput: The MAL system demonstrated a 30% increase in hourly throughput compared to the existing system, producing 8,352 kit boxes in an 8-hour shift versus 6,807 kit boxes by the current assembly line.
-2. Cost Efficiency: The MAL system's automation led to a substantial reduction in operating costs, saving approximately $59,240 per annum due to reduced reliance on manual labor.
-3. Return on Investment (ROI): The MAL system is projected to become more cost-effective than the existing system within three years, achieving a quicker ROI due to lower operational costs.
+1. Increased Throughput: The MAL system produced 8,352 kit boxes over an 8-hour shift against 6,807 from the existing line, an improvement of about 22%.
+2. Cost Efficiency: Automation reduced operational costs by 25% and headcount by 25%, giving expected savings of 60,000 SGD per annum against an upfront cost of 178,200 SGD.
+3. Return on Investment (ROI): The upfront cost breaks even in approximately three years.
 
 <div class="videorow">
     <div class="col-sm mt-3 mt-md-0">
