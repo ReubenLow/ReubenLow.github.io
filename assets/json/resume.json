@@ -162,8 +162,8 @@
       "highlights": [
         "Developed a long-horizon planning pipeline that decomposes natural language goals into subtasks, dispatches them to a VLA-driven Kuavo V4 Pro humanoid, visually verifies each step, and recovers from failures.",
         "Iterated from a stateless pipeline to a multi-turn conversation architecture for persistent dialogue context, and constrained VLM-generated plans to the robot's trained skill primitives to prevent hallucinated dispatch.",
-        "Designed a comparative evaluation study across 10,800 scored planning trials to study task decomposition quality, sensitivity to scene complexity, and appropriate refusal of infeasible requests; Gemini ER 1.5 reached 97.2% success rate vs 40.8% for Cosmos-Reason1.",
-        "Evaluated long-horizon monitoring on 50 BEHAVIOR-1K household tasks in simulation: decomposition (6.68/7), progress monitoring (2.01/3), with object hallucination the common failure mode."
+        "Designed a comparative evaluation across 10,800 scored planning trials measuring task decomposition quality, sensitivity to scene complexity, and appropriate refusal of infeasible requests; Gemini ER 1.5 reached 97.2% success rate vs 40.8% for Cosmos-Reason1.",
+        "Evaluated long-horizon monitoring on 50 BEHAVIOR-1K household tasks in simulation: decomposition (6.68/7), progress monitoring (2.01/3), with object hallucination the most common failure mode."
       ]
     },
     {
