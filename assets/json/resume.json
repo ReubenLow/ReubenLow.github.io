@@ -60,13 +60,15 @@
       "name": "Frameworks & Tools",
       "icon": "fa-solid fa-screwdriver-wrench",
       "keywords": [
+        "PyTorch",
+        "OpenCV",
         "NVIDIA GR00T (VLA deployment)",
         "ROS1, ROS2, MoveIt2",
         "NVIDIA Isaac Sim/Lab",
         "Gazebo, RViz",
         "Docker, Git/GitHub, Linux",
         "MQTT",
-        "SolidWorks, Visual Components",
+        "SolidWorks, Siemens NX, Visual Components",
         "LaTeX"
       ]
     },
