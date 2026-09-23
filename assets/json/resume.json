@@ -93,7 +93,7 @@
       "endDate": "2025-12-01",
       "summary": "",
       "highlights": [
-        "Developed autonomous manipulation and perception systems on the Kuavo humanoid and Unitree Go2 quadruped, spanning VLM-based task planning and evaluation, visual servoing, and vision-guided hardware payloads (Elaborated under",
+        "Developed autonomous manipulation and perception systems on the Kuavo humanoid and Unitree Go2 quadruped, spanning VLM-based task planning and evaluation, visual servoing, and vision-guided hardware payloads (Elaborated under Projects).",
         "Collected teleoperated demonstrations on the Kuavo humanoid for NVIDIA GR00T VLA training, and deployed the trained policies on the robot.",
         "Developed my capstone project in collaboration with the company: a Plan-Act-Correct-Verify (PACV) pipeline for long-horizon humanoid manipulation, using VLMs (Gemini Robotics ER 1.5, Cosmos-Reason1) as planners over VLAs (NVIDIA GR00T N1/N1.5).",
         "Maintained and upgraded humanoid hardware (Kuavo, Unitree H1): replaced faulty motors, ran firmware updates and recalibration procedures, and authored maintenance SOPs adopted by the team.",
