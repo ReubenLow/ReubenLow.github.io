@@ -3,7 +3,7 @@ layout: page
 title: Lite-kit Project 1
 description: A robotic platform that can be remotely controlled wirelessly via a GUI.
 img: assets/img/litekit1.jpg
-importance: 12
+importance: 13
 category: work
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: Modular Assembly Line (MAL)
 description: A modular based Value-Added Services assembly line
 img: assets/img/malhome.jpg
-importance: 8
+importance: 9
 category: work
 giscus_comments: false
 ---

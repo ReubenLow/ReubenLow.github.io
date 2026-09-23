@@ -3,7 +3,7 @@ layout: page
 title: Systems Engineering Project 2
 description: Development of a Food Printing System
 img: assets/img/evebot1.png
-importance: 7
+importance: 8
 category: work
 related_publications: false
 ---
