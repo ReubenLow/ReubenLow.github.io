@@ -3,7 +3,7 @@ layout: page
 title: Bird Deterrence Quadruped
 description: An autonomous bird deterrence system built on a Unitree Go2 quadruped.
 img: assets/img/iwsp/bird-deterrence-quadruped/quadruped-deployed.jpg
-importance: 4
+importance: 5
 category: work
 ---
 

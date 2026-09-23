@@ -3,7 +3,7 @@ layout: page
 title: RoboSG Tic-Tac-Toe Humanoid
 description: An interactive Kuavo V4 humanoid that plays tic-tac-toe against members of the public.
 img: assets/img/iwsp/robosg-tic-tac-toe/tic-tac-toe-humanoid.jpg
-importance: 3
+importance: 4
 category: work
 ---
 

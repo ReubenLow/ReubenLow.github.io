@@ -3,7 +3,7 @@ layout: page
 title: Interactive Quadruped for Public Outreach
 description: An Android-controlled Unitree Go2 built for community robotics demonstrations.
 img: assets/img/iwsp/outreach-quadruped/bidadari-outreach.jpg
-importance: 6
+importance: 7
 category: work
 ---
 

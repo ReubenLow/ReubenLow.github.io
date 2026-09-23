@@ -3,7 +3,7 @@ layout: page
 title: Storeman-Rosman Autonomous Shelf Picking
 description: Dual-arm concurrent shelf picking on the Kuavo humanoid.
 img: assets/img/iwsp/storeman-rosman-shelf-picking/shelf-picking.jpg
-importance: 5
+importance: 6
 category: work
 ---
 
