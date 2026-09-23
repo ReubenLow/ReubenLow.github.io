@@ -13,3 +13,6 @@ vendor
 .idea
 # Local working notes, never published
 notes/
+
+# Resume LaTeX source, never published
+latex/
