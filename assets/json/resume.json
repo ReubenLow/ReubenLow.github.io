@@ -130,16 +130,6 @@
       ]
     },
     {
-      "name": "Singapore Armed Forces",
-      "position": "Supply Assistant",
-      "location": "Singapore",
-      "url": "",
-      "startDate": "2020-07-01",
-      "endDate": "2022-07-01",
-      "summary": "",
-      "highlights": ["Managed unit logistical operations. Awarded Best Soldier of the Month, Sergeant Major Coin, and SBW CO Letter of Commendation."]
-    },
-    {
       "name": "Advanced Remanufacturing and Technology Centre (ARTC)",
       "position": "Engineering Intern",
       "location": "Singapore",
@@ -152,6 +142,18 @@
         "Integrated ABB's Simplified Robot Programming (SRP) with the ABB IRB 6660; designed 3D-printed spray nozzle adapters and demonstrated motion tracking at the 2019 ROS-I APAC conference.",
         "Developed components for a new cable management system on the ABB IRB 6660 robot arm, reducing cable strain and preventing entanglement."
       ]
+    }
+  ],
+  "others": [
+    {
+      "name": "Singapore Armed Forces",
+      "position": "Supply Assistant",
+      "location": "Singapore",
+      "url": "",
+      "startDate": "2020-07-01",
+      "endDate": "2022-07-01",
+      "summary": "",
+      "highlights": ["Managed unit logistical operations. Awarded Best Soldier of the Month, Sergeant Major Coin, and SBW CO Letter of Commendation."]
     }
   ],
   "projects": [
