@@ -28,7 +28,8 @@ The project team successfully designed and developed a prototype of a Modular As
     </div>
 </div>
 <div class="caption">
-    The EASY Printer printing the Chanel logo on a tray of Pain Au Chocolat Pastries.
+    Test-case verification of the Modular Assembly Line. The existing line and the MAL run side by side in Visual Components,
+    followed by individual cells and the physical proof-of-concept alongside its simulated counterpart.
 </div>
 
 ## Skills deployed & Responsibilities
@@ -38,8 +39,6 @@ The project team successfully designed and developed a prototype of a Modular As
 - Visual Components
 - Embedded Systems
 - Electronics
-
-## More details about the project will be furnished soon.
 
 {% raw %}
 
