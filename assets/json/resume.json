@@ -204,15 +204,6 @@
       ]
     },
     {
-      "name": "VLM/LLM Evaluation for Robotics",
-      "url": "",
-      "summary": "NVIDIA Cosmos-Reason1, K2-Think, BitsAndBytes, Python",
-      "highlights": [
-        "Evaluated Cosmos-Reason1 and Gemini Robotics ER 1.5 on synthetically generated abnormal-trajectory videos, comparing rule-based versus temporal-description prompting strategies and documenting detection failure cases.",
-        "Quantised K2-Think to 4-bit with BitsAndBytes to fit it on a RTX 4090, measuring inference latency and VRAM use to confirm it could run locally."
-      ]
-    },
-    {
       "name": "EASY Pastry Printer",
       "url": "https://reubenlow.github.io/projects/1_project/",
       "summary": "STM32, C, SolidWorks, Pixy Camera, SCRUM, Project Management",
